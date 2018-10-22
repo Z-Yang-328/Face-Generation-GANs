@@ -7,7 +7,9 @@ Generative adversarial networks (GANs) are a class of artificial intelligence al
 
 One of the reasons why we use GANs is that we don't always have enough data to train our networks. GANs can generate fake images, which are very similar to the real ones, to provide sufficient required amount of data to train our networks. GANs uses two competitors, called discriminator and generator, to generate fake data. The goal of generators is to produce fake images in order to "fool" the discriminator, while discriminators are trained using read images which is able to tell the difference between fake and real images. Once a GAN is well-trained, the generator is able to produce images as "real" as real images to fool the discriminator.
 
+## Results
 
+## The files
 * assistance.py ------------ The assistance.py file makes your life easier. It provides functions to download and preprocessing image data.
 * download_data.py --------- The download_data.py file would automatically download the data for you to train the network
 * check_tensorflow_gpu.py -- The check_tensorflow_gpu.py would check your tensorflow version and your access to GPU. Training on GPUs is HIGHLY RECOMMENDED.
