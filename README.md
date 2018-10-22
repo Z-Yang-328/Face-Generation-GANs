@@ -4,7 +4,8 @@ This project using CelebA dataset to train our GANs in order to produce fake fac
 
 ## A brief intro to GANs
 > Generative adversarial networks (GANs) are a class of artificial intelligence algorithms used in unsupervised machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework. They were introduced by Ian Goodfellow et al. in 2014. This technique can generate photographs that look at least superficially authentic to human observers, having many realistic characteristics (though in tests people can tell real from generated in many cases) --- from Wikipedia
-__
+
+
 One of the reasons why we use GANs is that we don't always have enough data to train our networks. GANs can generate fake images, which are very similar to the real ones, to provide sufficient required amount of data to train our networks. GANs uses two competitors, called discriminator and generator, to generate fake data. The goal of generators is to produce fake images in order to "fool" the discriminator, while discriminators are trained using read images which is able to tell the difference between fake and real images. Once a GAN is well-trained, the generator is able to produce images as "real" as real images to fool the discriminator.
 
 ## Results
